@@ -1,0 +1,105 @@
+/* CSS style for DokuWiki ul.idx (index trees)
+ * 
+ * @author Constant Illumination (Chang Zhao) <alex@obschy.ru>
+ */
+.dokuwiki ul.idx, ul.idx p {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.dokuwiki ul.idx div {
+    display: inline-block;
+}
+.dokuwiki div > ul.idx {
+    font-size: 100%;
+    box-sizing: border-box;
+    padding-left: 1.0em;
+}
+.dokuwiki ul.idx ul {
+    margin-left: 0.25em;
+}
+ul.idx li {
+    list-style: none !important;
+    margin-left: -1.0em;
+    padding-left: 1.6em;
+    border-left: 0.1em solid #FF0000;
+    position: relative;
+}
+ul.idx li li {
+    border-left: 0.1em solid #FFD800;
+}
+ul.idx li li li {
+    border-left: 0.1em solid #00D000;
+}
+ul.idx li li li li {
+    border-left: 0.1em solid #0026FF;
+}
+ul.idx li li li li li {
+    border-left: 0.1em solid #7A715A;
+}
+ul.idx li:last-child {
+    border-left: none;
+}
+ul.idx li:before {
+    width: 0.9em;
+    height: 0.8em;
+    margin-left: -1.6em;
+    margin-right: 0.6em;
+    vertical-align: top;
+    border-bottom: thin solid #7A715A;
+    content: "";
+    display: inline-block;
+}
+ul.idx li:last-child:before {
+    border-left: 0.1em solid #FF0000;
+}
+ul.idx li li:last-child:before {
+    border-left: 0.1em solid #FFD800;
+}
+ul.idx li li li:last-child:before {
+    border-left: 0.1em solid #00D000;
+}
+ul.idx li li li li:last-child:before {
+    border-left: 0.1em solid #0026FF;
+}
+ul.idx li li li li li:last-child:before {
+    border-left: 0.1em solid #7A715A;
+}
+ul.idx li:after {
+    width: 0.8em;
+    height: 0.8em;
+    vertical-align: middle;
+    content: "";
+    display: inline-block;
+    left: 0.5em;
+    top: 0.4em;
+    position: absolute;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwwAADsMBx2+oZAAAABh0RVh0U29mdHdhcmUAcGFpbnQubmV0IDQuMS4zjST9ZwAAAE5JREFUOE9jKPIy/k8qBgIGGAYbQCyAqUU2hCwDQABmCNkGgACIT7IB6JgkA9AB7QwAiWHD6AAkNki9QCzAaQBIDBtGByCx4RIG5GPj/wCAfloMWncviQAAAABJRU5ErkJggg==);
+/* url(images/mini/page.png); */
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+ul.idx li:last-child:after {
+    left: 0.6em; /* = + .1 for the absent border of li */
+}
+ul.idx li.open:after {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAAYdEVYdFNvZnR3YXJlAHBhaW50Lm5ldCA0LjEuM40k/WcAAABSSURBVDhP7dGxDQAgCERRdmILx3FnW1dQaRQCBVwtyW9fcoF64yWdI6QLoIgBEORNmANCDKCRbA6oIiGQ6QMKkF8iiAEQxAFVJAQ0ks0BNYTXBtPZ6A4VD4L0AAAAAElFTkSuQmCC);
+/* url(images/mini/open.png); */
+    background-size: contain;
+}
+ul.idx li.closed:after {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwgAADsIBFShKgAAAABh0RVh0U29mdHdhcmUAcGFpbnQubmV0IDQuMS4zjST9ZwAAAF1JREFUOE9j+P//P0ORl/F/QhikDhsmSjMMo2sGYbgB/989xYtxGUKyAeiGkGUAWD2lBoD1UGoACI90AygKRJBmsg2AaSbLAGTNKAYQg9E1gzCYwKYYHSNrQuD/DAATmtHTLNM0awAAAABJRU5ErkJggg==);
+/* url(images/mini/closed.png); */
+    background-size: contain;
+}
+ul.idx li:first-child {
+    margin-top: -0.3em;
+    padding-top: 0.3em;
+}
+ul.idx li:only-child:before {
+    margin-top: -0.3em;
+    padding-top: 0.3em;
+}
+ul.idx li:first-child:after {
+    top: 0.7em;
+}
