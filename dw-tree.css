@@ -15,8 +15,11 @@
     margin: 0;
     padding: 0;
 }
-#index__tree > ul ul {
+#index__tree ul {
     margin-left: 0.25em;
+}
+#index__tree > ul {
+    margin-left: 1.0em;
 }
 #index__tree li {
     list-style: none !important;
