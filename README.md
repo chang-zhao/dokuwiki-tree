@@ -7,6 +7,8 @@ Aaand... Poof!
 
 All this is done with CSS borders and pseudo-elements, 100% virus-free. ;)
 
+![CSS explanation](https://github.com/chang-zhao/dokuwiki-tree/blob/master/dw-tree-css-annot.png)
+
 Ideas used from:
 
  * https://css-tricks.com/
