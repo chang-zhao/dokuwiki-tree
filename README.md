@@ -11,6 +11,7 @@ All this is done with CSS borders and pseudo-elements, 100% virus-free. ;)
 
 Ideas used from:
 
+ * https://www.dokuwiki.org/plugin:indexmenu
  * https://css-tricks.com/
  * https://gist.github.com/dylancwood/7368914
  * https://jsfiddle.net/1fynun7a/1591/
