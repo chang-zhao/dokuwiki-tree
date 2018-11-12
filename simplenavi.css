@@ -16,8 +16,11 @@
     margin: 0;
     padding: 0;
 }
-.plugin__simplenavi > ul ul {
+.plugin__simplenavi ul {
     margin-left: 0.25em;
+}
+.plugin__simplenavi > ul {
+    margin-left: 1.0em;
 }
 .plugin__simplenavi li {
     list-style: none !important;
