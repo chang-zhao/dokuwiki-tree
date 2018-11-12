@@ -1,9 +1,11 @@
 # dokuwiki-tree
-Making DokuWiki site map and sidebar navigation tree beautiful
+Making DokuWiki site map and sidebar navigation tree beautiful. Just copy the contents of **dw-tree.css** from here to your DokuWiki /conf/userstyle.css
+
+Aaand... Poof!
 
 ![DokuWiki Site Map with this CSS](https://github.com/chang-zhao/dokuwiki-tree/blob/master/dw-tree-css.png)
 
-All this is done with CSS borders and pseudo-elements.
+All this is done with CSS borders and pseudo-elements, 100% virus-free. ;)
 
 Ideas used from:
 
