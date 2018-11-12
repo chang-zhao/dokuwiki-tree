@@ -1,7 +1,7 @@
 # dokuwiki-tree
 Making DokuWiki site map and sidebar navigation tree beautiful
 
-
+![DokuWiki Site Map with this CSS](https://github.com/chang-zhao/dokuwiki-tree/blob/master/dw-tree-css-4.png)
 
 Ideas used from:
 
