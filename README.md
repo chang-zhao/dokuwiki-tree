@@ -15,7 +15,9 @@ All this is done with CSS borders and pseudo-elements, 100% virus-free. ;)
  * **simplenavi.css** - the same kind of styling, applied only to the tree of [SimpleNavi plugin](https://www.dokuwiki.org/plugin:simplenavi) (parent container *`.plugin__simplenavi`*)
  * **idx-tree.css** - the styling will be applied to all index trees (with *`ul.idx`*), regardless of parent container. It should work anywhere, but who knows... If necessary, make CSS adjustments to parent context in place.
 
-So choose whichever of those files suits your needs. Suggestions & contributions are welcome.
+So choose whichever of those files suits your needs (`idx-tree.css` if you want max beauty everywhere).
+
+Suggestions & contributions are welcome.
 
 Let all beings be free from suffering and delusions!
 
