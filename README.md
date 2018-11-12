@@ -1,4 +1,7 @@
 # DokuWiki tree beautiful view
+
+![like this](https://github.com/chang-zhao/dokuwiki-tree/blob/master/tree.png)
+
 Making DokuWiki **site map** and **sidebar navigation trees** beautiful. Just copy the contents of any of those CSS [files](#files) - from here to your DokuWiki`/conf/userstyle.css`
 
 Aaand... Poof!
