@@ -1,5 +1,5 @@
 # DokuWiki tree view
-Making DokuWiki site map and sidebar navigation tree beautiful. Just copy the contents of any of those CSS [files](#files), from here to your DokuWiki `/conf/userstyle.css`
+Making DokuWiki **site map** and **sidebar navigation trees** beautiful. Just copy the contents of any of those CSS [files](#files) - from here to your DokuWiki`/conf/userstyle.css`
 
 Aaand... Poof!
 
@@ -11,11 +11,11 @@ All this is done with CSS borders and pseudo-elements, 100% virus-free. ;)
 
 # Files:
 
- * dw-tree.css - for main site map only (parent container *`#index__tree`*)
- * simplenavi.css - the same styling, applied only to the tree of **simplenavi** plugin (parent container *`.plugin__simplenavi`*)
- * idx-tree.css - the same styling applied to all index trees (there are *`ul.idx`*), regardless of parent container. In that case, make adjustments to parent context in place if necessary.
+ * **dw-tree.css** - for styling the main site map only (parent container *`#index__tree`*). Thus, `?do=index` would be styled, but not other index trees.
+ * **simplenavi.css** - the same kind of styling, applied only to the tree of [SimpleNavi plugin](https://www.dokuwiki.org/plugin:simplenavi) (parent container *`.plugin__simplenavi`*)
+ * **idx-tree.css** - the styling will be applied to all index trees (with *`ul.idx`*), regardless of parent container. It should work anywhere, but who knows... If necessary, make CSS adjustments to parent context in place.
 
-Choose whatever of those files according to your needs. Suggestions & contributions are welcome.
+So choose whichever of those files suits your needs. Suggestions & contributions are welcome.
 
 Let all beings be free from suffering and delusions!
 
