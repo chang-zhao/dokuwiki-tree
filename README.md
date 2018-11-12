@@ -9,6 +9,12 @@ All this is done with CSS borders and pseudo-elements, 100% virus-free. ;)
 
 ![CSS explanation](https://github.com/chang-zhao/dokuwiki-tree/blob/master/dw-tree-css-annot.png)
 
+#Files:
+
+ * dw-tree.css - for main site map only (parent container *`#index__tree`*)
+ * simplenavi.css - the same styling, applied only to the tree of **simplenavi** plugin (parent container *`.plugin__simplenavi`*)
+ * idx-tree.css - the same styling applied to all index trees (there are *`ul.idx`*), regardless of parent container. In that case, make adjustments to parent context in place if necessary.
+
 Ideas used from:
 
  * https://www.dokuwiki.org/plugin:indexmenu
