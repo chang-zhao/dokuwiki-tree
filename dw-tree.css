@@ -1,0 +1,105 @@
+/* CSS style for DokuWiki Site Index tree
+ * 
+ * @author Constant Illumination (Chang Zhao) <alex@obschy.ru>
+ * @date 2018.11.12
+ */
+#index__tree {
+    font-size: 100%;
+    box-sizing: border-box;
+}
+#index__tree div {
+    display: inline-block;
+}
+#index__tree p, #index__tree ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#index__tree > ul ul {
+    margin-left: 0.25em;
+}
+#index__tree li {
+    list-style: none !important;
+    margin-left: -1.0em;
+    padding-left: 1.6em;
+    border-left: 0.1em solid #FF0000;
+    position: relative;
+}
+#index__tree li li {
+    border-left: 0.1em solid #FFD800;
+}
+#index__tree li li li {
+    border-left: 0.1em solid #00D000;
+}
+#index__tree li li li li {
+    border-left: 0.1em solid #0026FF;
+}
+#index__tree li li li li li {
+    border-left: 0.1em solid #7A715A;
+}
+#index__tree li:last-child {
+    border-left: none;
+}
+#index__tree li:before {
+    width: 0.9em;
+    height: 0.7em;
+    margin-left: -1.6em;
+    margin-right: 0.6em;
+    vertical-align: top;
+    border-bottom: thin solid #7A715A;
+    content: "";
+    display: inline-block;
+}
+#index__tree li:last-child:before {
+    border-left: 0.1em solid #FF0000;
+}
+#index__tree li li:last-child:before {
+    border-left: 0.1em solid #FFD800;
+}
+#index__tree li li li:last-child:before {
+    border-left: 0.1em solid #00D000;
+}
+#index__tree li li li li:last-child:before {
+    border-left: 0.1em solid #0026FF;
+}
+#index__tree li li li li li:last-child:before {
+    border-left: 0.1em solid #7A715A;
+}
+#index__tree li:after {
+    width: 0.8em;
+    height: 0.8em;
+    vertical-align: middle;
+    content: "";
+    display: inline-block;
+    left: 0.5em;
+    top: 0.3em;
+    position: absolute;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwwAADsMBx2+oZAAAABh0RVh0U29mdHdhcmUAcGFpbnQubmV0IDQuMS4zjST9ZwAAAE5JREFUOE9jKPIy/k8qBgIGGAYbQCyAqUU2hCwDQABmCNkGgACIT7IB6JgkA9AB7QwAiWHD6AAkNki9QCzAaQBIDBtGByCx4RIG5GPj/wCAfloMWncviQAAAABJRU5ErkJggg==);
+/* url(images/mini/page.png); */
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#index__tree li:last-child:after {
+    left: 0.6em; /* = + .1 for the absent border of li */
+}
+#index__tree li.open:after {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAAYdEVYdFNvZnR3YXJlAHBhaW50Lm5ldCA0LjEuM40k/WcAAABSSURBVDhP7dGxDQAgCERRdmILx3FnW1dQaRQCBVwtyW9fcoF64yWdI6QLoIgBEORNmANCDKCRbA6oIiGQ6QMKkF8iiAEQxAFVJAQ0ks0BNYTXBtPZ6A4VD4L0AAAAAElFTkSuQmCC);
+/* url(images/mini/open.png); */
+    background-size: contain;
+}
+#index__tree li.closed:after {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwgAADsIBFShKgAAAABh0RVh0U29mdHdhcmUAcGFpbnQubmV0IDQuMS4zjST9ZwAAAF1JREFUOE9j+P//P0ORl/F/QhikDhsmSjMMo2sGYbgB/989xYtxGUKyAeiGkGUAWD2lBoD1UGoACI90AygKRJBmsg2AaSbLAGTNKAYQg9E1gzCYwKYYHSNrQuD/DAATmtHTLNM0awAAAABJRU5ErkJggg==);
+/* url(images/mini/closed.png); */
+    background-size: contain;
+}
+#index__tree li:first-child {
+    margin-top: -0.7em;
+    padding-top: 0.7em;
+}
+#index__tree li:only-child:before {
+    margin-top: -0.7em;
+    padding-top: 0.7em;
+}
+#index__tree li:first-child:after {
+    top: 1.1em;
+}
