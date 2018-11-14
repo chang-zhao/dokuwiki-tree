@@ -1,8 +1,12 @@
 # DokuWiki tree beautiful view
 
+### [Live Demo](https://xxx.obschy.ru/wiki/start?do=index)
+
 ![like this](https://github.com/chang-zhao/dokuwiki-tree/blob/master/tree.png)
 
-Making DokuWiki **site map** and **sidebar navigation trees** beautiful. Just copy the contents of any of those CSS [files](#files) - from here to your DokuWiki`/conf/userstyle.css`
+### Making DokuWiki *site map* and *sidebar navigation trees* beautiful.
+
+Just copy the contents of any of those CSS [files](#files) - from here to your DokuWiki`/conf/userstyle.css`
 
 Aaand... Poof!
 
@@ -12,7 +16,7 @@ All this is done with CSS borders and pseudo-elements, 100% virus-free. ;)
 
 ![CSS explanation](https://github.com/chang-zhao/dokuwiki-tree/blob/master/dw-tree-css-annot.png)
 
-# Files:
+### Files:
 
  * **dw-tree.css** - for styling the main site map only (parent container *`#index__tree`*). Thus, `?do=index` would be styled, but not other index trees.
  * **simplenavi.css** - the same kind of styling, applied only to the tree of [SimpleNavi plugin](https://www.dokuwiki.org/plugin:simplenavi) (parent container *`.plugin__simplenavi`*)
