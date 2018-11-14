@@ -1,6 +1,6 @@
 # DokuWiki tree beautiful view
 
-### [Live Demo](https://xxx.obschy.ru/wiki/start?do=index)
+### For [Live Demo](https://xxx.obschy.ru/wiki/start?do=index) <- click this
 
 ![like this](https://github.com/chang-zhao/dokuwiki-tree/blob/master/tree.png)
 
