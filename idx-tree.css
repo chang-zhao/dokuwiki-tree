@@ -2,11 +2,16 @@
  * 
  * @author Constant Illumination (Chang Zhao) <alex@obschy.ru>
  */
-.dokuwiki ul.idx, ul.idx p {
+.plugin__simplenavi p, .plugin__simplenavi ul {
     list-style: none;
-/*    margin: 0;
+/*
+    margin: 0;
     padding: 0;
 */
+}
+.plugin__simplenavi p, .plugin__simplenavi ul ul {
+    margin: 0;
+    padding: 0;
 }
 .dokuwiki ul.idx div {
     display: inline;
