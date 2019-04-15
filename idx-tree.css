@@ -9,7 +9,9 @@
     padding: 0;
 */
 }
-.plugin__simplenavi p, .plugin__simplenavi ul ul {
+.plugin__simplenavi p,
+.plugin__simplenavi ul ul,
+.dokuwiki ul.idx ul {
     margin: 0;
     padding: 0;
 }
