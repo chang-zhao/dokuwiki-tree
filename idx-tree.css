@@ -4,8 +4,9 @@
  */
 .dokuwiki ul.idx, ul.idx p {
     list-style: none;
-    margin: 0;
+/*    margin: 0;
     padding: 0;
+*/
 }
 .dokuwiki ul.idx div {
     display: inline;
