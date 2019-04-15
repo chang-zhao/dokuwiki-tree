@@ -17,6 +17,10 @@
     padding: 0;
 */
 }
+#index__tree ul ul {
+    margin: 0;
+    padding: 0;
+}
 #index__tree ul {
     margin-left: 0.25em;
 }
