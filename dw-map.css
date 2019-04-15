@@ -12,8 +12,10 @@
 }
 #index__tree p, #index__tree ul {
     list-style: none;
+/*
     margin: 0;
     padding: 0;
+*/
 }
 #index__tree ul {
     margin-left: 0.25em;
